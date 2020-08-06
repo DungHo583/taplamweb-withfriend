@@ -1,7 +1,9 @@
 body{
    margin: 0px; 
+   width: 1324px;
 }
 .background-header{
+ position: relative;
  width: 100%;
  height: 600px;   
  margin: 0px;
@@ -12,15 +14,13 @@ body{
     width: 100%;
     height: 100%;
 }
-.box{
- position: absolute;   
-width: 100%;
-height: 85px;
-background-color:red;
-opacity: 0.8;
-top:0;
-left: 0;
-padding: 20px 50px;
+.box {
+    position: absolute;
+    background-color:red;
+    opacity: 0.8;
+    top:0;
+    left: 0;
+    width: 100%;
 }
 .header-logo {
     width: 70px;
@@ -38,4 +38,5 @@ padding: 20px 50px;
 .box-content{
     display: flex;
     justify-content: space-between;
+    padding: 20px 50px;
 }
